@@ -71,13 +71,13 @@
               <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -87,7 +87,7 @@
     <section
       id="home"
       class="main-banner parallaxie"
-      style="background: url('/images/Photo/toronto.jpg')"
+      style="background: url('./images/Photo/toronto.jpg')"
     >
       <div class="heading">
         <h1>Hi, i'm <span>Alvaro </span></h1>
@@ -107,8 +107,6 @@
       </div>
     </section>
 
-    -->
-
     <div id="about" class="section wb m-5">
       <div class="container">
         <div class="row">
@@ -126,7 +124,6 @@
 
               <a
                 href="#contact"
-                onclick="smoothTransition()"
                 class="sim-btn btn-hover-new rounded js-scroll-trigger"
                 data-text="Contact Me"
                 ><span>Contact Me</span></a
@@ -154,10 +151,7 @@
       <div class="container">
         <div class="section-title text-left">
           <h3>Portfolio</h3>
-          <p>
-            Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non
-            aliquam risus.
-          </p>
+          <p>Look at some of my projects</p>
         </div>
         <!-- end title -->
 
@@ -165,15 +159,14 @@
           <div class="col-md-12">
             <div class="button-group filter-button-group text-left">
               <button class="active" data-filter="*">All</button>
-              <button data-filter=".gal_a">Web Development</button>
-              <button data-filter=".gal_b">Creative Design</button>
-              <button data-filter=".gal_c">Graphic Design</button>
+              <button data-filter=".web_dev">Web Development</button>
+              <button data-filter=".gal_b">Game Development</button>
             </div>
           </div>
         </div>
 
         <div class="gallery-list row">
-          <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
+          <div class="col-md-4 col-sm-6 gallery-grid web_dev gal_b">
             <div class="gallery-single fix">
               <img src="uploads/gallery_img-01.jpg" class="img-fluid" alt="Image" />
               <div class="img-overlay">
@@ -187,7 +180,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
+          <div class="col-md-4 col-sm-6 gallery-grid web_dev gal_b">
             <div class="gallery-single fix">
               <img src="uploads/gallery_img-02.jpg" class="img-fluid" alt="Image" />
               <div class="img-overlay">
@@ -201,7 +194,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
+          <div class="col-md-4 col-sm-6 gallery-grid web_dev gal_a">
             <div class="gallery-single fix">
               <img src="uploads/gallery_img-03.jpg" class="img-fluid" alt="Image" />
               <div class="img-overlay">
@@ -229,7 +222,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
+          <div class="col-md-4 col-sm-6 gallery-grid gal_a">
             <div class="gallery-single fix">
               <img src="uploads/gallery_img-05.jpg" class="img-fluid" alt="Image" />
               <div class="img-overlay">
@@ -243,7 +236,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-sm-6 gallery-grid gal_c gal_a">
+          <div class="col-md-4 col-sm-6 gallery-grid gal_a">
             <div class="gallery-single fix">
               <img src="uploads/gallery_img-06.jpg" class="img-fluid" alt="Image" />
               <div class="img-overlay">
@@ -264,10 +257,7 @@
       <div class="container">
         <div class="section-title text-left">
           <h3>Contact</h3>
-          <p>
-            Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non
-            aliquam risus.
-          </p>
+          <p>I'm always up for a good chat, let's talk about our future projects!</p>
         </div>
         <!-- end title -->
 
@@ -329,7 +319,7 @@
                     <div id="success"></div>
                     <button
                       id="sendMessageButton"
-                      class="sim-btn btn-hover-new"
+                      class="sim-btn btn-hover-new rounded"
                       data-text="Send Message"
                       type="submit"
                     >
@@ -354,15 +344,13 @@
           <div class="footer-left">
             <p class="footer-links">
               <a href="#">Home</a>
-              <a href="#">Blog</a>
-              <a href="#">Pricing</a>
-              <a href="#">About</a>
-              <a href="#">Faq</a>
-              <a href="#">Contact</a>
+              <a href="#about">About</a>
+
+              <a href="#portfolio">Portfolio</a>
+              <a href="#contact">Contact</a>
             </p>
             <p class="footer-company-name">
-              All Rights Reserved. &copy; 2018 <a href="#">Dominic</a> Design By :
-              <a href="https://html.design/">html design</a>
+              All Rights Reserved. &copy; 2022 <a href="#">Alvaro Beltran</a>
             </p>
           </div>
         </div>
