@@ -493,7 +493,7 @@ xclip
 }
 
 .section.db {
-  background-color: #111111;
+  background-color: white;
 }
 
 .section.color1 {
@@ -560,7 +560,7 @@ xclip
 .section.colorsection p,
 .section.colorsection h3,
 .section.db h3 {
-  color: #ffffff;
+  color: #263e58;
 }
 
 .btn-hover-new {
@@ -984,7 +984,7 @@ xclip
 .service-widget h3 a,
 .section.wb .service-widget h3,
 .section.lb .service-widget h3 {
-  color: #1f1f1f;
+  color: #263e58;
 }
 
 .service-widget p {
@@ -999,7 +999,7 @@ xclip
   font-weight: 600;
   letter-spacing: 0.5px;
   font-size: 15px;
-  color: #999;
+  color: #263e58;
 }
 
 .message-box h2 {
@@ -1020,7 +1020,7 @@ xclip
   padding-top: 10px;
   font-size: 16px;
   font-style: italic;
-  color: #999;
+  color: #263e58;
   padding-bottom: 10px;
   padding-left: 15px;
 }
@@ -1843,7 +1843,7 @@ select.mobile-device {
 }
 
 .contact_form .form-control {
-  background-color: #333333;
+  background-color: #263e58;
   margin-bottom: 30px;
   border: 1px solid #ebebeb;
   box-sizing: border-box;
@@ -1878,11 +1878,11 @@ select.mobile-device {
 }
 
 #contact {
-  background: url(images/bg.png) no-repeat center center #333333;
+  /* background: url(images/bg.png) no-repeat center center #333333; */
 }
 
 #contact .section-title p {
-  color: #ffffff;
+  color: #263e58;
 }
 
 .contact_form textarea.form-control {
@@ -2004,7 +2004,7 @@ select.mobile-device {
 
 .copyrights {
   border-top: 1px dashed rgba(255, 255, 255, 0.1);
-  background-color: #1f1f1f;
+  background-color: #263e58;
   box-sizing: border-box;
   width: 100%;
   text-align: left;
@@ -2265,4 +2265,18 @@ select.mobile-device {
 .btn-light:focus {
   border-color: rgba(255, 255, 255, 0.6);
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*Custom changes */
+#about {
+  color: #5b5b5b;
+}
+.message-box > h2 {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#home {
+  background-image: url("./images/Photo/toronto.jpg");
 }
