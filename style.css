@@ -2278,7 +2278,7 @@ select.mobile-device {
 }
 
 #home {
-  background-image: url("./personalWeb/images/Photo/toronto.jpg");
+  background-image: url("https://github.com/Bayzon88/personalWeb/blob/master/images/Photo/toronto.jpg");
 }
 
 @media (max-width: 768px) {
