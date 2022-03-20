@@ -2356,6 +2356,9 @@ select.mobile-device {
 }
 /* Custom Media Queries*/
 @media (max-width: 768px) {
+  #home {
+    background-position: -200px;
+  }
   .right-box-pro {
     top: 0;
 
