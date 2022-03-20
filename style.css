@@ -2281,7 +2281,7 @@ select.mobile-device {
 
 #home {
   background-image: url("https://github.com/Bayzon88/personalWeb/blob/master/images/Photo/toronto.jpg?raw=true");
-  background-size: cover;
+  background-size: contain;
 }
 .technologies {
   display: grid;
