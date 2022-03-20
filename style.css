@@ -2377,4 +2377,7 @@ select.mobile-device {
   #about {
     padding: 0;
   }
+  .gallery-list {
+    height: 1600px;
+  }
 }
