@@ -1255,9 +1255,7 @@ hr.invis1 {
   -webkit-box-shadow: 0 0 10px #ccc;
   box-shadow: 0 0 10px #ccc;
 }
-.gallery-list {
-  height: 1200px !important;
-}
+
 .gallery-list .img-overlay {
   position: absolute;
   top: 10px;

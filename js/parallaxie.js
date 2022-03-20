@@ -11,9 +11,9 @@
   $.fn.parallaxie = function (options) {
     var options = $.extend(
       {
-        speed: 0.2,
+        speed: 0.8,
         repeat: "no-repeat",
-        size: "fill",
+        size: "cover",
         pos_x: "center",
         offset: 0,
       },
