@@ -13,7 +13,7 @@
       {
         speed: 0.2,
         repeat: "no-repeat",
-        size: "contain",
+        size: "fill",
         pos_x: "center",
         offset: 0,
       },
