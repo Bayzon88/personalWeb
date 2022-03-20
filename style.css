@@ -2291,9 +2291,15 @@ select.mobile-device {
     width: 15rem;
     margin: 0;
   }
+  .message-box {
+    margin-bottom: 0px !important;
+  }
   .right-box-pro-container {
     display: flex;
     justify-content: center;
     width: 100%;
+  }
+  #about {
+    padding: 0;
   }
 }
