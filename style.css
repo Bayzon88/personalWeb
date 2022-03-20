@@ -2278,7 +2278,7 @@ select.mobile-device {
 }
 
 #home {
-  background-image: url("./images/Photo/toronto.jpg");
+  background-image: url("/images/Photo/toronto.jpg");
 }
 
 @media (max-width: 768px) {
