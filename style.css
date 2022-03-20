@@ -2280,7 +2280,58 @@ select.mobile-device {
 #home {
   background-image: url("https://github.com/Bayzon88/personalWeb/blob/master/images/Photo/toronto.jpg?raw=true");
 }
+.technologies {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+.technologies > i {
+  display: flex;
+  font-size: 30px;
+  padding: 0px 10px;
+  width: 30%;
+}
+.fa-html5 {
+  color: #e34c26;
+}
+.fa-css3 {
+  color: #264de4;
+}
+.fa-js {
+  color: #f0db4f;
+}
+.gallery-description {
+  display: flex;
+  padding: 10px;
 
+  justify-content: space-between;
+}
+
+.goToProject {
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  justify-content: space-around;
+}
+.goToProject-GH:hover {
+  background-color: #333333;
+  color: white;
+}
+.goToProject-GH,
+.goToProject-WEB {
+  width: 5rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 3px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Custom Media Queries*/
 @media (max-width: 768px) {
   .right-box-pro {
     top: 0;
