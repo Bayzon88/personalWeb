@@ -2378,6 +2378,6 @@ select.mobile-device {
     padding: 0;
   }
   .gallery-list {
-    height: 1600px;
+    height: 1600px !important;
   }
 }
